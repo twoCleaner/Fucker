@@ -61,7 +61,7 @@ RUN \
   && echo "$FIRA_CODE_BOLD_DOWNLOAD_SHA256 $FONT_DIR/Fura Code Bold Nerd Font Complete.ttf" | sha256sum -c - \
   && echo "$FIRA_CODE_RETINA_DOWNLOAD_SHA256 $FONT_DIR/Fura Code Retina Nerd Font Complete.ttf" | sha256sum -c -
 
-ENV APP_USER=xwang
+ENV APP_USER=coder
 ENV APP_USER_GROUP=www-data
 ARG APP_USER_HOME=/home/$APP_USER
 
